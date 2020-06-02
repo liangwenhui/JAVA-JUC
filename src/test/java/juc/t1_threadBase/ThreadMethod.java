@@ -1,8 +1,6 @@
-package juc.threadBase;
+package juc.t1_threadBase;
 
 import org.junit.Test;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * sleep
