@@ -39,6 +39,7 @@ public class CreateThread {
     @Test
     public void runRunnable() throws InterruptedException{
         Thread t = new Thread(new MyRunnable());
+
         t.start();
         t.join();
     }
