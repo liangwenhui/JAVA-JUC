@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eabae22-06ec-4d5e-b27d-e021c8c0b87e" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/juc/thread_base/CreateThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/juc/threadBase/CreateThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/juc/threadBase/ThreadMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="1eabae22-06ec-4d5e-b27d-e021c8c0b87e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/juc/lock/T1_ReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/juc/t1_threadBase/ThreadStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/juc/t2_synchronizedBase/FirstKnowSync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/juc/t2_synchronizedBase/syncObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/juc/useUnsafe/TestUnsafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/juc/threadBase/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/juc/t1_threadBase/CreateThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/juc/threadBase/ThreadMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/juc/t1_threadBase/ThreadMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/juc/threadBase/CreateThread$MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/juc/threadBase/CreateThread$MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/juc/threadBase/CreateThread$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/juc/threadBase/CreateThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/juc/threadBase/ThreadMethod.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,23 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/juc/threadBase/CreateThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/juc/threadBase/ThreadMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/juc/lock/T1_ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+            <state relative-caret-position="460">
+              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,6 +67,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,6 +78,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/juc/threadBase/CreateThread.java" />
         <option value="$PROJECT_DIR$/src/test/java/juc/threadBase/ThreadMethod.java" />
+        <option value="$PROJECT_DIR$/src/test/java/juc/threadBase/ThreadStatus.java" />
+        <option value="$PROJECT_DIR$/src/test/java/juc/t1_threadBase/ThreadStatus.java" />
+        <option value="$PROJECT_DIR$/src/test/java/juc/t2_synchronizedBase/FirstKnowSync.java" />
+        <option value="$PROJECT_DIR$/src/test/java/juc/t2_synchronizedBase/syncObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/juc/useUnsafe/TestUnsafe.java" />
+        <option value="$PROJECT_DIR$/src/test/java/juc/lock/T1_ReentrantLock.java" />
       </list>
     </option>
   </component>
@@ -112,9 +116,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="465" />
-    <option name="y" value="20" />
-    <option name="width" value="1987" />
+    <option name="x" value="706" />
+    <option name="y" value="6" />
+    <option name="width" value="1592" />
     <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -179,7 +183,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threadBase" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lwhjuc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JAVA-JUC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lwhjuc" type="b2602c69:ProjectViewProjectNode" />
@@ -196,9 +209,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,82 +229,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThreadMethod.testYield">
-    <configuration name="CreateThread.runCallable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.T1_ReentrantLock.t">
+    <configuration name="T1_ReentrantLock.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA-JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="juc.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.CreateThread" />
-      <option name="METHOD_NAME" value="runCallable" />
+      <option name="PACKAGE_NAME" value="juc.lock" />
+      <option name="MAIN_CLASS_NAME" value="juc.lock.T1_ReentrantLock" />
+      <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateThread.startThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUnsafe.createUnsafe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA-JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="juc.useUnsafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.CreateThread" />
-      <option name="METHOD_NAME" value="startThread" />
+      <option name="PACKAGE_NAME" value="juc.useUnsafe" />
+      <option name="MAIN_CLASS_NAME" value="juc.useUnsafe.TestUnsafe" />
+      <option name="METHOD_NAME" value="createUnsafe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod.testJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="syncObject.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA-JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="juc.t2_synchronizedBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.ThreadMethod" />
-      <option name="METHOD_NAME" value="testJoin" />
+      <option name="PACKAGE_NAME" value="juc.t2_synchronizedBase" />
+      <option name="MAIN_CLASS_NAME" value="juc.t2_synchronizedBase.syncObject" />
+      <option name="METHOD_NAME" value="a" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod.testSleep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="syncObject.a2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA-JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="juc.t2_synchronizedBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.ThreadMethod" />
-      <option name="METHOD_NAME" value="testSleep" />
+      <option name="PACKAGE_NAME" value="juc.t2_synchronizedBase" />
+      <option name="MAIN_CLASS_NAME" value="juc.t2_synchronizedBase.syncObject" />
+      <option name="METHOD_NAME" value="a2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod.testYield" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="syncObject.a3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA-JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="juc.t2_synchronizedBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.ThreadMethod" />
-      <option name="METHOD_NAME" value="testYield" />
+      <option name="PACKAGE_NAME" value="juc.t2_synchronizedBase" />
+      <option name="MAIN_CLASS_NAME" value="juc.t2_synchronizedBase.syncObject" />
+      <option name="METHOD_NAME" value="a3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ThreadMethod.testYield" />
-        <item itemvalue="JUnit.ThreadMethod.testJoin" />
-        <item itemvalue="JUnit.ThreadMethod.testSleep" />
-        <item itemvalue="JUnit.CreateThread.startThread" />
-        <item itemvalue="JUnit.CreateThread.runCallable" />
+        <item itemvalue="JUnit.T1_ReentrantLock.t" />
+        <item itemvalue="JUnit.TestUnsafe.createUnsafe" />
+        <item itemvalue="JUnit.syncObject.a" />
+        <item itemvalue="JUnit.syncObject.a3" />
+        <item itemvalue="JUnit.syncObject.a2" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +331,11 @@
       <option name="presentableId" value="Default" />
       <updated>1590802274926</updated>
       <workItem from="1590802278615" duration="959000" />
-      <workItem from="1590803256747" duration="5507000" />
+      <workItem from="1590803256747" duration="7411000" />
+      <workItem from="1590824914699" duration="8549000" />
+      <workItem from="1590889179092" duration="1679000" />
+      <workItem from="1590914701193" duration="3051000" />
+      <workItem from="1590924906526" duration="5280000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1590802569334</created>
@@ -323,58 +344,64 @@
       <option name="project" value="LOCAL" />
       <updated>1590802569334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="createthread  sleep yiled join commit">
+      <created>1590814282779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590814282780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreadMethod_testSleep - 2020.05.30 at 10h 33m 55s.xml">
-      <configuration name="ThreadMethod.testSleep" configurationId="JUnit" />
+    <history-entry file="syncObject_a - 2020.05.30 at 18h 07m 05s.xml">
+      <configuration name="syncObject.a" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testSleep - 2020.05.30 at 10h 34m 49s.xml">
-      <configuration name="ThreadMethod.testSleep" configurationId="JUnit" />
+    <history-entry file="syncObject_a - 2020.05.30 at 18h 07m 22s.xml">
+      <configuration name="syncObject.a" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 27m 18s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
+    <history-entry file="syncObject_a - 2020.05.30 at 18h 07m 48s.xml">
+      <configuration name="syncObject.a" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 27m 35s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
+    <history-entry file="TestUnsafe_createUnsafe - 2020.05.31 at 20h 02m 27s.xml">
+      <configuration name="TestUnsafe.createUnsafe" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 27m 56s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
+    <history-entry file="TestUnsafe_createUnsafe - 2020.05.31 at 20h 03m 14s.xml">
+      <configuration name="TestUnsafe.createUnsafe" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 34m 53s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
+    <history-entry file="TestUnsafe_createUnsafe - 2020.05.31 at 20h 04m 11s.xml">
+      <configuration name="TestUnsafe.createUnsafe" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 34m 59s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
+    <history-entry file="TestUnsafe_createUnsafe - 2020.05.31 at 20h 05m 10s.xml">
+      <configuration name="TestUnsafe.createUnsafe" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 35m 19s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
+    <history-entry file="T1_ReentrantLock_t - 2020.05.31 at 20h 54m 39s.xml">
+      <configuration name="T1_ReentrantLock.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testYield - 2020.05.30 at 12h 46m 31s.xml">
-      <configuration name="ThreadMethod.testYield" configurationId="JUnit" />
+    <history-entry file="T1_ReentrantLock_t - 2020.05.31 at 20h 55m 00s.xml">
+      <configuration name="T1_ReentrantLock.t" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadMethod_testYield - 2020.05.30 at 12h 46m 50s.xml">
-      <configuration name="ThreadMethod.testYield" configurationId="JUnit" />
+    <history-entry file="T1_ReentrantLock_t - 2020.05.31 at 20h 57m 23s.xml">
+      <configuration name="T1_ReentrantLock.t" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6466000" />
+    <option name="totallyTimeSpent" value="26929000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="465" y="20" width="1987" height="995" extended-state="0" />
+    <frame x="706" y="6" width="1592" height="995" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16969383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22193211" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3297491" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297491" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5796345" weight="0.3297491" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904422" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,8 +410,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.42036554" side_tool="true" visible="true" weight="0.3297491" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4986945" weight="0.3297491" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -394,7 +422,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32996893" />
-      <window_info anchor="right" id="Structure" order="9" visible="true" weight="0.16709912" />
+      <window_info anchor="right" id="Structure" order="9" visible="true" weight="0.21018277" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,13 +430,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="createthread  sleep yiled join commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="createthread  sleep yiled join commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/juc/threadBase/ThreadMethod.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/juc/t1_threadBase/ThreadMethod.java</url>
           <line>52</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -421,13 +450,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/juc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/juc.java" />
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -463,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/juc/threadBase/CreateThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -480,10 +493,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/juc/threadBase/ThreadMethod.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        <state relative-caret-position="399">
+          <caret line="600" column="22" selection-start-line="600" selection-start-column="22" selection-end-line="600" selection-end-column="22" />
+          <folding>
+            <element signature="e#27751#27752#0" expanded="true" />
+            <element signature="e#27815#27816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java11/lib/src.zip!/java.base/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="1689" column="22" selection-start-line="1689" selection-start-column="22" selection-end-line="1689" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/juc/t1_threadBase/CreateThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/juc/t1_threadBase/ThreadMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/juc/t2_synchronizedBase/FirstKnowSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/juc/t2_synchronizedBase/syncObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/juc/t1_threadBase/ThreadStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java11/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1057" column="22" selection-start-line="1057" selection-start-column="22" selection-end-line="1057" selection-end-column="22" />
+          <folding>
+            <element signature="e#42078#42079#0" expanded="true" />
+            <element signature="e#42112#42113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java11/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="2335" column="21" selection-start-line="2335" selection-start-column="21" selection-end-line="2335" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java11/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="180" column="41" selection-start-line="180" selection-start-column="36" selection-end-line="180" selection-end-column="41" />
+          <folding>
+            <element signature="e#2294#2295#0" expanded="true" />
+            <element signature="e#2326#2327#0" expanded="true" />
+            <element signature="e#5303#5304#0" expanded="true" />
+            <element signature="e#5356#5357#0" expanded="true" />
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6340#6341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/juc/useUnsafe/TestUnsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/juc/lock/T1_ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -493,9 +608,76 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

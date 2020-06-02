@@ -1,6 +1,5 @@
-package juc.threadBase;
+package juc.t1_threadBase;
 
-import jdk.nashorn.internal.codegen.CompilerConstants;
 import juc.thread_base.CreateThreadDemo;
 import org.junit.Test;
 
