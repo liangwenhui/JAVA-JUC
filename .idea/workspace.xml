@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eabae22-06ec-4d5e-b27d-e021c8c0b87e" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/spring/reflect/TestField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="1eabae22-06ec-4d5e-b27d-e021c8c0b87e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spring/reflect/LwhAutoWired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spring/reflect/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spring/reflect/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/juc/threadBase/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/juc/threadBase/CreateThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/spring/reflect/TestField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spring/reflect/TestField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/JAVA-JUC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/juc/t1_threadBase/CreateThread$MyCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/juc/t1_threadBase/CreateThread$MyCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/juc/t1_threadBase/CreateThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/juc/t1_threadBase/CreateThread.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +43,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -51,11 +57,6 @@
         <option name="userSettingsFile" value="D:\mashibing\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -64,91 +65,83 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/iwhale_home/workspace/oc_oss3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.ThreadMethod.testYield">
-    <configuration name="CreateThread.runCallable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JAVA-JUC" />
+  <component name="RunManager" selected="JUnit.TestField.testLwhAtw (1)">
+    <configuration name="TestField.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lwh.juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="spring.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.CreateThread" />
-      <option name="METHOD_NAME" value="runCallable" />
+      <option name="PACKAGE_NAME" value="spring.reflect" />
+      <option name="MAIN_CLASS_NAME" value="spring.reflect.TestField" />
+      <option name="METHOD_NAME" value="t" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateThread.startThread" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JAVA-JUC" />
+    <configuration name="TestField.t2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lwh.juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="spring.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.CreateThread" />
-      <option name="METHOD_NAME" value="startThread" />
+      <option name="PACKAGE_NAME" value="spring.reflect" />
+      <option name="MAIN_CLASS_NAME" value="spring.reflect.TestField" />
+      <option name="METHOD_NAME" value="t2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod.testJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestField.testLwhAtw (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JAVA-JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="spring.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.ThreadMethod" />
-      <option name="METHOD_NAME" value="testJoin" />
+      <option name="PACKAGE_NAME" value="spring.reflect" />
+      <option name="MAIN_CLASS_NAME" value="spring.reflect.TestField" />
+      <option name="METHOD_NAME" value="testLwhAtw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMethod.testSleep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JAVA-JUC" />
+    <configuration name="TestField.testLwhAtw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lwh.juc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="juc.threadBase.*" />
+          <option name="PATTERN" value="spring.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="juc.threadBase" />
-      <option name="MAIN_CLASS_NAME" value="juc.threadBase.ThreadMethod" />
-      <option name="METHOD_NAME" value="testSleep" />
+      <option name="PACKAGE_NAME" value="spring.reflect" />
+      <option name="MAIN_CLASS_NAME" value="spring.reflect.TestField" />
+      <option name="METHOD_NAME" value="testLwhAtw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestField.testLwhAtw (1)" />
+        <item itemvalue="JUnit.TestField.testLwhAtw" />
+        <item itemvalue="JUnit.TestField.t2" />
+        <item itemvalue="JUnit.TestField.t" />
         <item itemvalue="JUnit.ThreadMethod.testYield" />
-        <item itemvalue="JUnit.ThreadMethod.testJoin" />
-        <item itemvalue="JUnit.ThreadMethod.testSleep" />
-        <item itemvalue="JUnit.CreateThread.startThread" />
-        <item itemvalue="JUnit.CreateThread.runCallable" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +189,11 @@
       <workItem from="1590979167794" duration="4182000" />
       <workItem from="1590993252173" duration="4485000" />
       <workItem from="1591009050603" duration="178000" />
+      <workItem from="1591079968855" duration="15891000" />
+      <workItem from="1591148286832" duration="1210000" />
+      <workItem from="1591150193863" duration="1787000" />
+      <workItem from="1591152107147" duration="4000" />
+      <workItem from="1591152399288" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1590802569334</created>
@@ -204,40 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1590802569334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring">
+      <created>1591080036152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591080036152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ThreadMethod_testSleep - 2020.05.30 at 10h 33m 55s.xml">
-      <configuration name="ThreadMethod.testSleep" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testSleep - 2020.05.30 at 10h 34m 49s.xml">
-      <configuration name="ThreadMethod.testSleep" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 27m 18s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 27m 35s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 27m 56s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 34m 53s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 34m 59s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testJoin - 2020.05.30 at 12h 35m 19s.xml">
-      <configuration name="ThreadMethod.testJoin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testYield - 2020.05.30 at 12h 46m 31s.xml">
-      <configuration name="ThreadMethod.testYield" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMethod_testYield - 2020.05.30 at 12h 46m 50s.xml">
-      <configuration name="ThreadMethod.testYield" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -247,17 +220,59 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="58" key="#Plugins" timestamp="1591159619296">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="58" key="#Plugins/0.0.1536.834@0.0.1536.834" timestamp="1591159619296" />
+    <state x="524" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1591163616456">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="524" y="108" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834@0.0.1536.834" timestamp="1591163616456" />
+    <state x="299" y="72" key="DBNavigator.ProjectSettingsDialog" timestamp="1591163676991">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="72" key="DBNavigator.ProjectSettingsDialog/0.0.1536.834@0.0.1536.834" timestamp="1591163676991" />
+    <state x="497" y="137" key="FileChooserDialogImpl" timestamp="1591164147035">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="497" y="137" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591164147035" />
+    <state width="1495" height="214" key="GridCell.Tab.0.bottom" timestamp="1591154866654">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591154866654" />
+    <state width="1495" height="214" key="GridCell.Tab.0.center" timestamp="1591154866654">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591154866654" />
+    <state width="1495" height="214" key="GridCell.Tab.0.left" timestamp="1591154866654">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591154866654" />
+    <state width="1495" height="214" key="GridCell.Tab.0.right" timestamp="1591154866654">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591154866654" />
+    <state x="255" y="41" key="SettingsEditor" timestamp="1591164147650">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="255" y="41" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1591164147650" />
+    <state x="2" y="38" key="new project wizard" timestamp="1591159634563">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="2" y="38" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1591159634563" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
